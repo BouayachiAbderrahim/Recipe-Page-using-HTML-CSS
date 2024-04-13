@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+:root
+{
+    --nutmeg : hsl(14, 45%, 36%);
+    --DarkRaspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --RoseWhite: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --LightGrey: hsl(30, 18%, 87%);
+    --WengeBrown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+}
+body
+{
+    background: var(--Eggshell);
+    display: grid;
+    place-content: center;
+}
+main
+{
+    margin-top: 50px;
+}
+main .container
+{
+    width: 60%;
+    margin: auto;
+    background: var(--White);
+    padding: 20px;
+    border-radius: 20px;
+}
+main .container header
+{
+    text-align: center;
+}
+main .container header img
+{
+    height: 300px;
+    width: 650px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.container .title-info
+{
+    margin: 20px 0px;
+    width: 85%;
+    padding: 10px;
+}
+.container .title-info h1
+{
+    margin-left: 25px;
+    font-family: "Young Serif", serif;   
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.container .title-info .description
+{
+    margin-left: 30px;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    color: var(--WengeBrown);
+}
+section aside
+{
+    background: var(--Eggshell);
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+section aside h3
+{
+    font-family: "Outfit", sans-serif;
+    color: var(--DarkRaspberry);
+    padding: 8px;
+    font-size: 20px;
+}
+section aside ul
+{
+    margin-left: 30px;
+    padding: 10px;
+    line-height: 2;
+    font-family: "Outfit", sans-serif;
+    
+}
+section aside ul li
+{
+    color: var(--WengeBrown);
+}
+section aside ul li .total, .preparation, .cooking, section article span
+{
+    font-weight: 700;
+    color: var(--DarkCharcoal);
+}
+section .ingredients
+{
+    margin-left: 30px;
+    padding: 10px;
+}
+section .ingredients h2
+{
+    font-size: 35px;
+    color: var(--nutmeg);
+    margin-bottom: 15px;
+    font-family: "Outfit", sans-serif;
+}
+section .ingredients ul, section article ol
+{
+    padding: 10px;
+    margin-left: 25px;
+    line-height: 2;
+    font-family: "Outfit", sans-serif;
+    color: var(--WengeBrown);
+    font-weight: 500;
+}
+hr
+{
+    width: 90%;
+    margin: auto;
+}
+section article
+{
+    margin-left: 10px;
+    padding: 10px;
+}
+section article h2, footer h2
+{
+    font-size: 35px;
+    color: var(--nutmeg);
+    margin-bottom: 15px;
+    font-family: "Outfit", sans-serif;
+    margin-left: 20px;
+}
+section article ol li
+{
+    padding-left: 10px;
+}
+footer
+{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+footer p
+{
+    color: var(--WengeBrown);
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+footer .table
+{
+    display: flex;
+    margin-left: 30px;
+    padding: 10px;
+    gap: 250px;
+}
+footer .table .brown, .brown1, .brown2, .brown3
+{
+    color: var(--DarkRaspberry);
+    font-weight: 700;  
+}
+footer .table .brown1
+{
+    margin-left: 35px;
+}
+footer .table .brown2
+{
+    margin-left: 25px;
+}
+footer .table .brown3
+{
+    margin-left: 52px;
+}
+footer .table .text
+{
+    display: flex;
+    gap: 300px;
+    text-align: center;
+}
+footer .table .line
+{
+    width: 620px;
+    margin-bottom: 10px;
+}
